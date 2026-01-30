@@ -38,7 +38,7 @@ func (p *GoProxy) Do(req *http.Request, obj any) (bool, int) {
 	return suc, statusCode
 }
 
-// New New proxy
+// New proxy
 func (p *GoProxy) New() Proxy {
 	return p
 }
